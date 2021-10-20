@@ -1,0 +1,252 @@
+html, body{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    scroll-behavior: smooth;
+    }
+    #contenedor {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+    #nav{
+    width: 100%;
+    height: 50px;
+    background-color:#000;
+    color:#fff;
+    line-height: 50px;
+    position:fixed;
+    top:0
+    }
+    #nav ul{
+    padding-left: 60%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    justify-content:flex-end;
+    }
+    #nav ul li{
+    display: block;
+    width: 120px;
+    float: left;
+    text-align:center;
+    }
+    #nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    }
+    #nav ul li a:hover{
+    background-color:black;
+    color:red;
+    }
+   
+    #inicio {
+    height: 350px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-bottom:-20px;
+    }
+
+    #inicio h1{
+        color:red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 40pt;
+        text-align:center;
+        margin: -200px;
+        line-height: 150px;
+    
+    }
+    .inicioimg{
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: 500pt;
+    }
+    
+    #contactos{
+    text-align:center;
+    height: 450px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top:0px;
+    z-index: 0;
+    color:#000;
+    }
+    #contactos h2{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    .input{
+    width: 500px;
+    height: 30px;
+    margin-bottom: 20px;
+    color:#000000;
+    background-color: white;
+    float: right;
+    margin-right: 20px;
+    }
+    .textarea{
+    width: 500px;
+    color:#000000;
+    background-color: white;
+    float: none;
+    }
+    .button{
+    width: 500px;
+    color:#000000;
+    float: none;
+    }
+    #servicios{
+    height: 550px;
+    width: 100%;
+    background-size: 100% 100%;
+    text-align:center;
+    color:#fff;
+    padding-top:3%;
+    }
+    #servicios h2{
+        color:red;
+    }
+    #servicios img{
+    width: 25%;
+    height: 300px;
+    display:block;
+    float:left;
+    padding-top:3%;
+    padding-left:6%;
+    padding-right: 0%;
+    }
+    #servicios p{
+    width: 25%;
+    text-align:center;
+    padding-top:3%;
+    padding-left:6%;
+    padding-right: 0%;
+    display:block;
+    float:left;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    }
+    #marcas{
+        height: 550px;
+        width: 100%;
+        background-size: 100% 100%;
+        text-align:center;
+        padding-top:3%;
+        }
+        #marcas img{
+            width: 25%;
+            height: 300px;
+            display:block;
+            float:left;
+            padding-top:3%;
+            padding-left:6%;
+            padding-right: 0%;
+            }
+        #marcas h2{
+            color:red;
+        }
+    #marcas p{
+        width: 25%;
+        text-align:center;
+        padding-top:3%;
+        padding-left:6%;
+        padding-right: 0%;
+        display:block;
+        float:left;
+        color:white;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    #ropa{
+        height: 550px;
+        width: 100%;
+        background-size: 100% 100%;
+        text-align:center;
+        color:#fff;
+        padding-top:3%;
+        }
+        #ropa img{
+            width: 25%;
+            height: 300px;
+            display:block;
+            float:left;
+            padding-top:3%;
+            padding-left:6%;
+            padding-right: 0%;
+            }
+        #ropa h2{
+            color:red;
+        }
+    #ropa p{
+        width: 25%;
+        text-align:center;
+        padding-top:3%;
+        padding-left:6%;
+        padding-right: 0%;
+        display:block;
+        float:left;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    #mochilas{
+        height: 550px;
+        width: 100%;
+        background-size: 100% 100%;
+        text-align:center;
+        color:#fff;
+        padding-top:3%;
+        }
+        #mochilas img{
+            width: 25%;
+            height: 300px;
+            display:block;
+            float:left;
+            padding-top:3%;
+            padding-left:6%;
+            padding-right: 0%;
+        }
+        #mochilas h2{
+            color:red;
+        }
+    #mochilas p{
+        width: 25%;
+        text-align:center;
+        padding-top:3%;
+        padding-left:6%;
+        padding-right: 0%;
+        display:block;
+        float:left;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    #pie{
+    height: 50px;
+    width: 100%;
+    color:#fff;
+    line-height: 50px;
+    text-align:center;
+    }
+    #izq{
+    height: 100%;
+    width: 49.2%;
+    background-color:#000;
+    color:#fff;
+    text-align:left;
+    padding-left: 10px;
+    float: left;
+    }
+    #der{
+    height: 100%;
+    width: 49.1%;
+    background-color:#000;
+    color:#fff;
+    text-align:right;
+    padding-right: 10px;
+    float: left;
+    }
+   
